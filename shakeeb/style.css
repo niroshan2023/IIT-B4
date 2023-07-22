@@ -1,0 +1,17 @@
+.para-one {
+    background-color: green;
+    color: white;
+}
+
+.para-two {
+    background-color: yellow;
+    color: black;
+}
+
+.list {
+    border: 10px solid red;
+}
+
+li {
+    border: 1px solid black;
+}
