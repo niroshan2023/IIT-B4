@@ -1,18 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lan=en">
     <head>
+        <meta charset="UTF-8">
+        <meta name= "viewport" content="width=device-width, initial-scale 1.0">
         <title>My HTML Page</title>
+        <style>
+            .my-from-elm{
+              margin: 100px
+            }
+            .thin-border{
+              border:1px solid;
+            }
+            .red-border{
+              border-color: red ! important;
+            }
+            #teen{
+              colour: blue
+            }
+              li{
+                color: blueviolet;
+              }
+              
+            p{
+              background-color: blanched almond;
+            }
+        </style>
     </head>
     <body>
         <h1>Titan</h1>
-        <pre>
-            On 18 June 2023, Titan, a submersible operated by American tourism and expeditions company OceanGate, 
+        <p id="history"></p> On 18 June 2023, Titan, a submersible operated by American tourism and expeditions company OceanGate, 
             imploded during an expedition to view the wreck of the Titanic in the North Atlantic Ocean off the 
-            coast of Newfoundland, Canada.
-            On board the submersible were Stockton Rush, the CEO of OceanGate; Paul-Henri Nargeolet, a French deep 
+            coast of Newfoundland, Canada.</p>
+        
+       <p id="problem" class="yellow"> On board the submersible were Stockton Rush, the CEO of OceanGate; Paul-Henri Nargeolet, a French deep 
             sea explorer and Titanic expert; Hamish Harding, a British billionaire businessman; Shahzada Dawood, a
-            Pakistani-British billionaire businessman; and Dawood's son Suleman
-        </pre>
+            Pakistani-British billionaire businessman; and Dawood's son Suleman</p>
+        
+        <img src="titanic.jpeg" height="500px">
+
+    <section>
+        <h2> Leave a comment</h2>
+        <form class="thin-border">
+            <div width = "25" class ="thin-border red">
+                <label> "Enter your name"</label>
+                <input name="name">
+                <input style="display: black" class="thin-border red border" name="">
+            </div>
+
+            <div width ="25" class = "thin-border">
+                <label> Enter email</label>
+                <input name="email" type ="email">
+            </div>
+
+            <div width = "25" class="thin-border">
+                <label> Comment</label>
+                <textarea name="Comment"></textarea>
+            </div>
+        </form>
+    </section>
+
+        <h2 class="thin-border">Explorers</h2>
+        <h3> Passenger List </h3>
+        <ol type="A" class="thin-border red-border" style ="width: 50%">
+            <li> Stock Rush </li>
+                <ul class="thin-border" style="width: 50%">
+                    <li> Captain </li>
+                    <li> CEO Oceangate </li>
+                </ul>
+            <li> Shahzada Dawood</li>
+        <li id="teen"> Suleman Dawod</li>
+        <li></li>
+        <li></li>
+        </ol>   
         
     </body>
 </html>
