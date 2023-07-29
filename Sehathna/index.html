@@ -1,15 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contetnt="width=device-width, initial-scale=1.0"> 
     <title>Titan the missing submarine</title>
+    <style>
+      .my-from-elm{
+        margin: 100px
+      }
+      .thin-border{
+        border:1px solid;
+      }
+      .red-border{
+        border-color: red !important;
+      }
+      #teen{
+        color: blue
+      }
+        li{
+          color: blueviolet;
+        }
+        
+      p{
+        background-color: blanchedalmond;
+      }
+    </style>
   </head>
   <body>
     <h1>Titan submersible implosion</h1>
-    <p>On 18 June 2023, Titan, a submersible operated by American tourism and expeditions company OceanGate, imploded during an expedition to view the wreck of the Titanic in the North Atlantic Ocean off the coast of Newfoundland, Canada.
+    
+    <p id="history"> On 18 June 2023, Titan, a submersible operated by American tourism and expeditions company OceanGate, 
+      imploded during an expedition to view the wreck of the Titanic in the North Atlantic Ocean off the coast of Newfoundland, Canada.
         On board the submersible were Stockton Rush, the CEO of OceanGate; Paul-Henri Nargeolet, a French deep sea explorer and Titanic expert; Hamish Harding, a British billionaire businessman; Shahzada Dawood, a Pakistani-British billionaire businessman; and Dawood's son Suleman. </p>
-    <p>Communication with Titan was lost 1 hour and 45 minutes into its dive. Authorities were alerted when it failed to resurface at the scheduled time later that day. 
+    <p id="problem" class="yellow"> Communication with Titan was lost 1 hour and 45 minutes into its dive. Authorities were alerted when it failed to resurface at the scheduled time later that day. 
         After the submersible had been missing for four days, a remotely operated underwater vehicle (ROV) discovered a debris field containing parts of Titan, about 500 metres (1,600 ft) from the bow of the Titanic. 
-        The search area was informed by the United States Navy's (USN) sonar detection of an acoustic signature consistent with an implosion around the time communications with the submersible ceased, suggesting the pressure hull had imploded while Titan was descending, resulting in the instantaneous deaths of all five occupants.</p>
+        The search area was informed by the United States Navy (USN) sonar detection of an acoustic signature consistent with an implosion around the time communications with the submersible ceased, suggesting the pressure hull had imploded while Titan was descending, resulting in the instantaneous deaths of all five occupants.</p>
+  
+    <img src="titan.jpeg" height="500px">
+
+  <section>
+    <h2> Leave a comment</h2>
+    <form class="thin-border">
+        <div width = "25" class ="thin-border red">
+          <label> "Enter your name"</label>
+          <input name="name">
+          <input style="display: black" class="thin-border red border" name="">
+        </div>
+
+        <div width ="25" class = "thin-border">
+           <label> Enter email</label>
+           <input name="email" type ="email">
+        </div>
+
+        <div width = "25" class="thin-border">
+          <label> Comment</label>
+          <textarea name="Comment"></textarea>
+        </div>
+    </form>
+  </section>
+      
+      <h2 class="thin-border">Explorers</h2>
+      <h3> Passenger List </h3>
+      <ol type="A" class="thin-border red-border" style ="width: 50%">
+        <li> Stock Rush </li>
+          <ul class="thin-border" style="width: 50%">
+            <li> Captain </li>
+            <li> CEO Oceangate </li>
+          </ul>
+        <li> Shahzada Dawood</li>
+      <li id="teen"> Suleman Dawod</li>
+      <li></li>
+      <li></li>
+     </ol>
+  
   </body>
 </html>
 
