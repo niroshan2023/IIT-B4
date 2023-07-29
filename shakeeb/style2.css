@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+
+}
+
+.container{
+    color: aliceblue;
+    text-align: center;
+}
+.para-one{
+    text-align: left;
+    background-color: rgb(111, 86, 6);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+.btn{
+    color: white;
+    background-color: rgb(111, 86, 6);
+    font-size: 20px;
+}
+
+.btn:hover{
+   color: black;
+   background-color: rgb(165, 151, 42);
+}
+
+.card{
+    background-color: black;
+    color: white;
+    border: none;
+    display: flex;
+    display: grid
+}
+
+h4{
+    font-size: 30px;
+}
+
+p{
+    text-align: left;
+}
