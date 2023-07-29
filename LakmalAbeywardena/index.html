@@ -12,7 +12,7 @@ p
 }
 
 li{
-    color: aqua  !important;
+    color: aqua;
 }
 
 .app
@@ -22,6 +22,10 @@ li{
     width: 50%;
     font-weight: bold;
     float: left;
+}
+.app-list
+{
+    color: black;
 }
     </style>
 </head>
@@ -75,17 +79,17 @@ li{
 <br>
 
 <div class="application" style="padding: 20px;">
-<label style="list-style-type:square">First Name</label> <br/>
+    <li class="app-list"><label style="list-style-type:square; color:black;">First Name</label> <br/></li>
 <input type="text" placeholder="Enter" style="border: none; outline: none; border-bottom: aqua solid; padding: 10px;">
 <br>
 <br>
 <br>
-<label style="list-style-type:square">Last Name</label> <br/>
+<li class="app-list"><label style="list-style-type:square; color:black;">Last Name</label> <br/></li>
 <input type="text" placeholder="Enter" style="border: none; outline: none; border-bottom: aqua solid; padding: 10px;">
 <br>
 <br>
 <br>
-<label style="list-style-type:square">Address 01</label><br/>
+<li class="app-list"></li><label style="list-style-type:square; color:black;">Address </label></li><br/>
 <input type="comment" placeholder="Enter" style=" border: none; outline: none; border-bottom: aqua solid; padding: 10px;">
 <input type="comment" placeholder="Enter" style=" border: none; outline: none; border-bottom: aqua solid; padding: 10px;">
 <input type="comment" placeholder="Enter" style=" border: none; outline: none; border-bottom: aqua solid; padding: 10px;">
@@ -93,19 +97,19 @@ li{
 <br>
 <br>
 <br>
-<label style="list-style-type:square">Date</label>
-<br/>
+<li class="app-list"></li><label style="list-style-type:square; color:black;">Date</label><br/></li>
+
 <input type="date" placeholder="dd/mm/year" style=" border: none; outline: none; border-bottom: aqua solid;">
 <br>
 <br>
 <br>
 <div class="radioBtn">
-<label>Select Item</label>
+    <li class="app-list"><label style="list-style-type:square; color:black;"><label>Select Item</label></li>
 <input type="radio">
 <input type="radio">
 </div>
 <br/>
-<li><label style="list-style-type:square; color:black;">Upload Your Nic</label></li>
+<li class="app-list"><label style="list-style-type:square; color:black;">Upload Your Nic</label></li>
 <br/>
 <input type="file">
 <br/>
