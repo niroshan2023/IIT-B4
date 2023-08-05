@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Selectors</title>
+    <style>
+       div,input{
+        border: 1px solid rgb(128, 128, 128);
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+        color: red;
+       }
+       #bluetext{
+        color: blue;
+       }
+    div #redtext{
+        color: blueviolet;
+       }
+    .big{
+        color: chartreuse;
+        font-size: 200%;    
+    }
+    .blue{
+        color: darkorange;
+    }
+
+    </style>
+</head>
+
+<body>
+    <p class="big" id="redtext"> <b>TEXT IN PHARAGRAPH</b></p>
+    <div>
+        <input type="text" placeholder="Hello">
+        <ul id="redtext">
+            <li>Some text</li>
+            <li>Some more text</li>
+        </ul>
+
+        <ul id="bluetext">
+            <li>Some </li>
+            <li>Some more </li>
+        </ul>
+<!--</div>
+<div>-->
+</div>
+<div>
+    <ul id="redtext">
+        <li>Some text</li>
+        <li>Some more text</li>
+    </ul>
+
+    <ul id="bluetext">
+        <li class="blue">Some </li>
+        <li class="blue big">Some more </li>
+    </ul>
+</div>
+</body>
+</html>
