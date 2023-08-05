@@ -13,24 +13,25 @@
             color: blue;
         }
 
-        div #redtext {
-            color: green;
+        div #greentext {
+            color: green !important;
         }
     </style>
 </head>
 <body>
-    <p id="blueText">
+    <p id="greentext">
         Text in paragraph
     </p>
-    <div>
+    <div id="greentext">
+        <p>Some text</p>
         <input type="text" placeholder="Hello">
         <ul id="blueText">
             <li>Some blue text</li>
             <li>Some more blue text</li>
         </ul>
-    <!-- </div>
-    <div> -->
-        <ul id="redtext">
+    </div>
+    <div>
+        <ul id="greentext">
             <li>Some text</li>
             <li>Some more text</li>
         </ul>
