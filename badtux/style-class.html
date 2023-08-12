@@ -9,41 +9,43 @@
             color: red;
         }
 
-        #blueText {
+        .blue {
             color: blue;
         }
 
-        div #redtext {
-            color: green;
+        .big {
+            font-size: 30px;
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <p id="blueText">
+    <p >
         Text in paragraph
     </p>
     <div>
+        <p class="blue big">Some text</p>
         <input type="text" placeholder="Hello">
-        <ul id="blueText">
-            <li>Some blue text</li>
+        <ul>
+            <li class="big blue">Some blue text</li>
             <li>Some more blue text</li>
         </ul>
-    <!-- </div>
-    <div> -->
-        <ul id="redtext">
+    </div>
+    <div>
+        <ul>
             <li>Some text</li>
-            <li>Some more text</li>
+            <li class="blue">Some more text</li>
         </ul>
     </div>
 
     <div>
-        <ul>
+        <ul class="blue">
             <li>Some blue text</li>
-            <li>Some more blue text</li>
+            <li class="big">Some more blue text</li>
         </ul>
-        <ul id="redtext">
+        <ul>
             <li>Some text</li>
-            <li>Some more text</li>
+            <li class="blue big">Some more text</li>
         </ul>
     </div>
 </body>
