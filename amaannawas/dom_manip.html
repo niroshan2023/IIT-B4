@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            span {
+                border: darkblue;
+                background-color: lightblue;
+            }
+            p {
+                border: red;
+                background-color: greenyellow;
+            }
+            .show {
+                visibility: visible !important;
+            }
+            .hide {
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="para">first para</p>
+        <p>
+            second para
+            <span id="myid">
+                Web Development
+            </span>
+        </p>
+
+        <button onclick="goCopy()">copy</button>
+        <script>
+            function goCopy(){
+                const spanElem = document.getElementById('myid');
+                const pElem = document.getElementById('para');
+                const bElem = document.getElementById('button');
+                pElem.innerHTML = spanElem.innerHTML
+                // spanElem.innerHTML = " "
+                spanElem.classList.replace('show', 'hide')
+                bElem.innerHTML = "undo"
+                console.log('copied!')
+            }
+        </script>
+    </body>
+</html>
