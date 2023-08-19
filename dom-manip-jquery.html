@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <style>
+            span {
+                border: darkblue;
+                background-color: lightblue;
+            }
+
+            p {
+                border: red;
+                background-color: lightpink;
+            }
+
+            .show {
+                visibility: visible !important;
+            }
+
+            .hide {
+                visibility: hidden;
+            }
+        </style>
+       
+       <!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" /> -->
+        <!-- <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script> -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>   -->
+    </head>
+    <body>
+        <p></p>
+        <p></p>
+        <p>
+            <span id="my-title" class="hide">
+                1. Web Development with JavaScript
+            </span>
+            <span id="my-title" class="hide">
+      
+                2. Web Development with JavaScript
+            </span>
+            <span id="my-title" class="hide">
+                3. Web Development with JavaScript
+            </span>
+        </p>
+        <select id="my-select" name="state">
+            <option value="AL">Alabama</option>
+            <option value="WY">Wyoming</option>
+        </select>
+    </body>
+</html>

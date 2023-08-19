@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+            span {
+                border: darkblue;
+                background-color: lightblue;
+            }
+
+            p {
+                border: red;
+                background-color: lightpink;
+            }
+
+            .show {
+                visibility: visible !important;
+            }
+
+            .hide {
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <p>First para
+            <span id="my-title" class="show">1. Web Development with JavaScript</span>
+        </p>
+        <p id="my_para">Second para</p>
+        
+        <!-- <select id="my-select" name="state">
+            <option value="AL">Alabama</option>
+            <option value="WY">Wyoming</option>
+        </select> -->
+        <input type="button" onclick="doCopy()" value="copy" name="action">
+        <script>
+            function doCopy(){
+                const spanElem = document.getElementById('my-title');
+                const pElem = document.getElementById('my_para');
+                const cpBtnElem = document.getElementsByName('action');
+
+                pElem.innerHTML = spanElem.innerHTML;
+                //spanElem.innerHTML='';
+               // spanElem.classList.remove('show');
+               // spanElem.classList.add('hide');
+                spanElem.classList.replace('show','hide');
+                cpBtnElem.value='undo';
+                console.log('copied!');
+            }
+        </script>
+    </body>
+</html>
