@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Working with HTML Forms</title>
+
+
+</head>
+
+<body>
+    <!-- Form to collect personal information -->
+    <form method="post" action="form.html" enctype="multipart/form-data">
+        <h2>MY FORM</h2>
+        <div id="redpanel">
+        <p>Full name:</p>
+        <p><input type="text" name="fullname" id="fullname"></p>
+        <p>SELECT GENDER</p>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <p> Date of join</p>
+        <p><input type="date" id="date" name="date"></p>
+        <p>Enter Your password</p>
+        <p><input type="password" value="password form"></p>
+        <p>Describe Your Background</p>
+        <p><textarea>
+        </textarea></p>
+        <p>Picture of your NIC</p>
+        <p><input type="file" value="file" name="file"></p>
+        <p><input type="reset" value="Clear form" name="reset"></p>
+        <p><input type="submit" value="Submit form" name="Submit"></p>
+        </div>
+    </form>
+</body>
+
+</html>
