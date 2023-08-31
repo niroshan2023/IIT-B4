@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b3ada5;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+.section-image {
+    width: 350px; /* Set the desired width */
+    height: auto;
+    display: block;
+    margin: 20px 0; /* Remove 'auto' and adjust the left margin */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute; /* Position the image absolutely */
+    top: 150; /* Align to the top */
+    left: 150; /* Align to the left */
+}
+
+
+#contactForm {
+    background-color: #adbff8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#contactFormSection {
+    background-image: url('add_contact.jpg');
+    /* ... other styles ... */
+}
+
+#contactListSection {
+    background-image: url('contact_list.jpg');
+    /* ... other styles ... */
+}
+
+#contactFormSection {
+    /* ... other styles ... */
+}
+
+#contactListSection {
+    /* ... other styles ... */
+}
+
+#contactContainer {
+    display: grid;
+    grid-template-columns: 1fr; /* Change this to one column */
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.contact {
+    background-color: #adbff8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add some bottom margin to separate contacts */
+    position: relative;
+}
+
+
+.contact button {
+    background-color: #cccf1a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
